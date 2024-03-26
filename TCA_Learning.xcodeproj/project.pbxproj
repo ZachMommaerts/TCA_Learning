@@ -47,6 +47,7 @@
 		41FE47A62BB13B76003CE09E /* TCA_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_LearningUITests.swift; sourceTree = "<group>"; };
 		41FE47A82BB13B76003CE09E /* TCA_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		41FE47B82BB13CB4003CE09E /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		41FE47C82BB2966A003CE09E /* TCA-Learning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Learning-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		41FE478A2BB13B73003CE09E /* TCA_Learning */ = {
 			isa = PBXGroup;
 			children = (
+				41FE47C82BB2966A003CE09E /* TCA-Learning-Info.plist */,
 				41FE478B2BB13B73003CE09E /* TCA_LearningApp.swift */,
 				41FE478D2BB13B73003CE09E /* ContentView.swift */,
 				41FE47B82BB13CB4003CE09E /* CounterFeature.swift */,
@@ -359,6 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -437,6 +440,7 @@
 				DEVELOPMENT_TEAM = L59RJMD84U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Learning-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +470,7 @@
 				DEVELOPMENT_TEAM = L59RJMD84U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Learning-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
