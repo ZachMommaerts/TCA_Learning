@@ -20,6 +20,9 @@
 		41FE47D02BB3EE82003CE09E /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE47B82BB13CB4003CE09E /* CounterFeature.swift */; };
 		41FE47D22BB3F5F4003CE09E /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE47D12BB3F5F4003CE09E /* NumberFactClient.swift */; };
 		41FE47D32BB3FB74003CE09E /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE47D12BB3F5F4003CE09E /* NumberFactClient.swift */; };
+		41FE47D52BB52801003CE09E /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE47D42BB52801003CE09E /* AppFeature.swift */; };
+		41FE47D72BB52C42003CE09E /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE47D62BB52C42003CE09E /* AppFeatureTests.swift */; };
+		41FE47D82BB52C4B003CE09E /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE47D42BB52801003CE09E /* AppFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 		41FE47C82BB2966A003CE09E /* TCA-Learning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Learning-Info.plist"; sourceTree = SOURCE_ROOT; };
 		41FE47CD2BB3E9A1003CE09E /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
 		41FE47D12BB3F5F4003CE09E /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		41FE47D42BB52801003CE09E /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		41FE47D62BB52C42003CE09E /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,7 @@
 				41FE478B2BB13B73003CE09E /* TCA_LearningApp.swift */,
 				41FE478D2BB13B73003CE09E /* ContentView.swift */,
 				41FE47B82BB13CB4003CE09E /* CounterFeature.swift */,
+				41FE47D42BB52801003CE09E /* AppFeature.swift */,
 				41FE47D12BB3F5F4003CE09E /* NumberFactClient.swift */,
 				41FE478F2BB13B76003CE09E /* Assets.xcassets */,
 				41FE47912BB13B76003CE09E /* Preview Content */,
@@ -128,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				41FE479C2BB13B76003CE09E /* TCA_LearningTests.swift */,
+				41FE47D62BB52C42003CE09E /* AppFeatureTests.swift */,
 				41FE47CD2BB3E9A1003CE09E /* CounterFeatureTests.swift */,
 			);
 			path = TCA_LearningTests;
@@ -279,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41FE47B92BB13CB5003CE09E /* CounterFeature.swift in Sources */,
+				41FE47D52BB52801003CE09E /* AppFeature.swift in Sources */,
 				41FE478E2BB13B73003CE09E /* ContentView.swift in Sources */,
 				41FE478C2BB13B73003CE09E /* TCA_LearningApp.swift in Sources */,
 				41FE47D22BB3F5F4003CE09E /* NumberFactClient.swift in Sources */,
@@ -289,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41FE47D82BB52C4B003CE09E /* AppFeature.swift in Sources */,
 				41FE47D02BB3EE82003CE09E /* CounterFeature.swift in Sources */,
+				41FE47D72BB52C42003CE09E /* AppFeatureTests.swift in Sources */,
 				41FE479D2BB13B76003CE09E /* TCA_LearningTests.swift in Sources */,
 				41FE47CE2BB3E9A1003CE09E /* CounterFeatureTests.swift in Sources */,
 				41FE47D32BB3FB74003CE09E /* NumberFactClient.swift in Sources */,
